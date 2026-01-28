@@ -13,7 +13,7 @@
       right: -100px;
       width: 620px;
       height: 600px;
-      background-image: url("D:/FAKS/DM/projektni 3/html/slike/phone back.png");
+      background-image: url("phone back.png");
       background-size: contain;
       background-repeat: no-repeat;
       background-position: center;
@@ -58,14 +58,14 @@
 
 span {color: rgb(255,0,255);}
 	.pozadina{
-		background-image: url("D:/FAKS/DM/projektni 3/html/slike/frank.png");
+		background-image: url("frank.png");
 		background-size: 1950px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
 		background-position: center;
 }
 	.drugapozadina {
-		background-image: url("D:/FAKS/DM/projektni 3/html/slike/mich.png");
+		background-image: url("mich.png");
 		background-size: 3500px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -73,7 +73,7 @@ span {color: rgb(255,0,255);}
 }
 	.trecapozadina {
 
-		background-image: url("D:/FAKS/DM/projektni 3/html/slike/trev.png");
+		background-image: url("trev.png");
 		background-size: 1950px;
 		background-repeat: no-repeat;
 		background-attachment: fixed;
@@ -81,7 +81,7 @@ span {color: rgb(255,0,255);}
 }
 	.cetvrtapozadina{
 
-		background-image: url("D:/FAKS/DM/projektni 3/html/slike/towa.jpg");
+		background-image: url("towa.jpg");
 		background-size: 1950px;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -141,7 +141,7 @@ span {color: rgb(255,0,255);}
 
 @font-face {
   font-family: "MelitaEvaMilostic1";
-  src: url("D:/FAKS/DM/projektni 3/html/slike/MelitaEvaMilostic1.ttf") format("truetype");
+  src: url("MelitaEvaMilostic1.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -204,7 +204,7 @@ span {color: rgb(255,0,255);}
 
 @font-face {
   font-family: "AGENCYR";
-  src: url("D:/FAKS/DM/projektni 3/html/slike/AGENCYR.TTF") format("truetype");
+  src: url("AGENCYR.TTF") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
@@ -376,14 +376,12 @@ a:hover::after {
 	  z-index: 0;
 }
 
-
 .paragraf4 p{
 		margin-bottom: 30px;
 	  font-size: 35px;
 	  line-height:40px;
 	  font-family: "AGENCYR", sans-serif;
 }
-
 
 .givehead {
 	position: absolute; 
