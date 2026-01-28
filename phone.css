@@ -146,6 +146,13 @@ span {color: rgb(255,0,255);}
   font-style: normal;
 }
 
+@font-face {
+  font-family: "AGENCYR";
+  src: url("AGENCYR.TTF") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
 .paragraf {
 	position: absolute; 
 	  top: 55%;
@@ -199,14 +206,6 @@ span {color: rgb(255,0,255);}
   font-size: 45px;
   line-height: 60px;
   font-family: "AGENCYR", sans-serif;
-}
-
-
-@font-face {
-  font-family: "AGENCYR";
-  src: url("AGENCYR.TTF") format("truetype");
-  font-weight: normal;
-  font-style: normal;
 }
 
 .paragraf p{
@@ -410,3 +409,4 @@ a:hover::after {
 	  top: 90%;
 	  left: 15%;
 }
+
