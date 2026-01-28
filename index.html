@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+      <title>pocetna</title>
+	  <link rel="stylesheet" href="phone.css"/>
+	</head>
+	
+<img src="D:/FAKS/DM/projektni 3/html/slike/franklin.png" alt="" class="bg-image1">
+
+<center>
+	<div class="box1"></div>
+	<style>
+	  .box1 {
+		width: 1650px;
+		height: 2000px;
+		background-color: hsla(0, 0%, 0%, 0.4);
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-position: center;
+	  }
+	</style>
+</center>
+
+<body class="pozadina">
+
+
+  <div class="phone-popup" id="phone">
+
+    <div class="icon-row">
+      <a href="index.html">
+        <img src="D:\FAKS\DM\projektni 3\html\slike\contracts app.png">
+      </a>
+      <a href="page1.html">
+        <img src="D:\FAKS\DM\projektni 3\html\slike\camera app.png">
+      </a>
+      <a href="page2.html">
+        <img src="D:\FAKS\DM\projektni 3\html\slike\exit app.png">
+      </a>
+		</div>
+	</div>
+
+</body>
+
+<div class="content">
+  <h1>Melita Eva Milostić</h1>
+  <h2>Digitalni multimedij</h2>
+</div>
+
+<div class="paragraf">
+		<p>Ja sam Melita Eva Milostic i dobrodosli na moje stranice!<br/>
+		Rodena sam u Leedsu, VB, a preselila sam se 2020. u Samoboru. Zavrsila sam gimnaziju i trenutno sam student na Grafickom fakultetu smjer Graficka tehnologija.
+		</p>
+</div>
+<div class="paragraf2">
+	<a href="o meni.html">O meni :3</a>
+</div>
+
+ <script>
+    const phone = document.getElementById("phone");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 30) { 
+        phone.classList.add("show");
+      } else {
+        phone.classList.remove("show");
+      }
+    });
+  </script>
+</html>
